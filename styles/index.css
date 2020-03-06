@@ -1,9 +1,25 @@
-@import './_normalize.css'
-@import './colors.css'
-@import './grid.css'
-@import './styles.css'
-@import './headerFooter.css'
-@import './nav.css'
-@import './main.css'
+@import './_normalize.css';
+@import './colors.css';
+@import './grid.css';
+@import './styles.css';
+@import './headerFooter.css';
+@import './nav.css';
+@import './main.css';
 
+html {
+  font-family: 'Corben', Helvetica, sans-serif;
+}
 
+body {
+  background: var(--black);
+}
+
+body {
+  
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  background: var(--white);
+}

@@ -4,7 +4,9 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
-    "**/.DS_Store": true
+    "**/.DS_Store": true,
+    "**/.vscode": true,
+    ".vscode": true
   },
   "explorerExclude.backup": null
 }

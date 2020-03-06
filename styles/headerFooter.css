@@ -1,0 +1,71 @@
+header {
+  background: var(--peach-pale);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+header,
+footer {
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: var(--peach-pale);
+  background-image: linear-gradient(180deg, #0000008c,#00000000, #ffffff59);
+}
+
+header .logoBox {
+  padding: 0em;
+}
+
+header .logoBox .logo {
+  width: 4.2rem;
+}
+
+header .brandBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 1em;
+  /* align-items: center;
+  align-content: center; */
+}
+
+
+header .brandBox h1 {
+  margin: 0.0em 0 0.15em;
+  text-align: center;
+}
+
+header .brandBox h4 {
+  margin: 0.4em 0 0em;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  background-image: linear-gradient(0deg, #0000008c,#00000000, #ffffff59);
+}
+
+footer section {
+  /* display: block; */
+  /* width: 45%; */
+  margin-left: 1em;
+}
+
+footer section h4, p {
+  margin: 0 0 .5em;
+}
+
+footer section p {
+  color: hsla(6, 86%, 14%, 0.75)
+}
