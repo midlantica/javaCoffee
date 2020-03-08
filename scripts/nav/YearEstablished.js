@@ -1,5 +1,3 @@
 export const YearEstablished = () => {
-  return `
-    <p>Year established 2020</p>
-  `
+  return `Year established 2020`
 }

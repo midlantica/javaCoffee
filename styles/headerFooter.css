@@ -57,15 +57,24 @@ footer {
 }
 
 footer section {
-  /* display: block; */
-  /* width: 45%; */
-  margin-left: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+footer section .logo {
+  width: 40px;
+  display: block;
 }
 
 footer section h4, p {
-  margin: 0 0 .5em;
+  padding-left: .5em;
+  margin: 0.8em 0 .5em;
+  font-size: 1.2em;
 }
 
 footer section p {
-  color: hsla(6, 86%, 14%, 0.75)
+  color: hsla(6, 86%, 14%, 0.75);
+  font-size: 1em;
 }

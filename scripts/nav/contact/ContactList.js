@@ -6,8 +6,8 @@ export const ContactList = () => {
 
   let allContactsHTML = ""
 
-  for (const contact of contacts) {
-    allContactsHTML += Contact(contact)
+  for (const contactItem of contacts) {
+    allContactsHTML += Contact(contactItem)
   }
 
   return allContactsHTML
