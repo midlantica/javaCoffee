@@ -4,7 +4,6 @@
 @import './styles.css';
 @import './headerFooter.css';
 @import './nav.css';
-@import './main.css';
 
 html {
   font-family: 'Corben', Helvetica, sans-serif;
