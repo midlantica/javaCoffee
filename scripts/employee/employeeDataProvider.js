@@ -41,7 +41,7 @@ const employees = [
   {
     id: 6,
     firstName: "Adam",
-    lastName: "Shhhhhhhheaffer",
+    lastName: "Sheaffer",
     jobTitle: "Hipster Sweater Representative",
     hoursScheduled: 201
   }

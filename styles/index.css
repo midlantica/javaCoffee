@@ -12,14 +12,16 @@ html {
 
 body {
   background: var(--black);
+  font-size: .9rem;
 }
 
-body {
-  
-}
+/* p, ul, ol, li {
+  color: var(--grey-400);
+} */
 
 .container {
   width: 90%;
   margin: auto;
   background: var(--white);
+  padding: 0;
 }

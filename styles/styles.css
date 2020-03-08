@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 .5em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: .5em;
+}
+
+h4 {
+  font-size: 1.25em;
+  margin: .5em;
+}
+
+h5 {
+  font-size: 1em;
+  margin: .5em;
+}
+
+h6 {
+  font-size: 0.85em;
+  /* margin: .5em; */
+}
+
+.equipment, 
+.employees,
+.products
+ {
+  padding: .25em;
+  /* border: 1px solid rgba(128, 128, 128, 0.5); */
+  border-radius: 6px;
+  margin: 1em;
+  background: var(--peach-pale);
+}
+
+.panel {
+  padding: .75em 1em .5em;
+  /* border: 1px solid rgba(128, 128, 128, 0.25); */
+  border-radius: 6px;
+  margin: .5em;
+  background: var(--white);
+}
+
+.panel h6 {
+  font-size: 0.85em;
+  color:var(--bean);
+  opacity: 80%;
+}
+
+.panel p {
+  font-size: 0.95em;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 0;
+}
