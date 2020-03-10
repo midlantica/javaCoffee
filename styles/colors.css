@@ -3,12 +3,13 @@
   --black:    hsl(190, 100%, 5%);
   --white:    hsl(82, 100%, 98%);
   /*  */
-  --bean:     hsl(6, 86%, 14%);
-  --orange:   hsl(15, 61%, 57%);
-  --peach:    hsl(35, 100%, 70%);
+  --bean:       hsl(6, 86%, 14%);
+  --bean-dk:    hsl(5, 85%, 8%);
+  --orange:     hsl(15, 61%, 57%);
+  --peach:      hsl(35, 100%, 70%);
   --peach-pale: hsl(35, 45%, 86%);
-  --aqua:     hsl(184, 94%, 42%);
-  --blue:     hsl(190, 100%, 13%, .5);
+  --aqua:       hsl(184, 94%, 42%);
+  --blue:       hsl(190, 100%, 13%, .5);
   /* GREYS */
   --grey-100: hsl(0, 0%, 90%);
   --grey-200: hsl(0, 0%, 75%);
@@ -28,8 +29,12 @@
   --transWhite-300: hsla(0, 0%, 100%, 0.50);
   --transWhite-400: hsla(0, 0%, 100%, 0.75);
   --transWhite-500: hsla(0, 0%, 100%, 1.00);
+
+  font-size: .9rem;
 }
 
-// var(--black)
-// var(--white)
+/* 
+  var(--black)
+  var(--white) 
+*/
 
