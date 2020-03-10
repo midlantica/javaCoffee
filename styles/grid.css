@@ -6,13 +6,13 @@ main {
   padding: 0 0em 1em;
 }
 
-section {
+.contentBox {
   width: 28%;
   padding: 0em 1em;
 }
 
 @media (max-width: 650px) {
-  section {
+  .contentBox {
     width: 100%;
     padding: 0em 1em;
   }

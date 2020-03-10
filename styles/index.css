@@ -9,18 +9,32 @@ html {
   font-family: 'Corben', Helvetica, sans-serif;
 }
 
-body {
-  background: var(--black);
-  font-size: .9rem;
+html {
+  height: 100vh;
 }
 
-/* p, ul, ol, li {
-  color: var(--grey-400);
-} */
+body {
+  background: var(--black);
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: .3rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(58, 58, 58);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--aqua);
+}
 
 .container {
-  width: 90%;
   margin: auto;
   background: var(--white);
-  padding: 0;
+  margin-left: 5em;
+  /* padding: 1em; */
 }
